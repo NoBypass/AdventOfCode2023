@@ -1,3 +1,6 @@
+mod trebuchet;
+
 fn main() {
-    println!("Hello, world!");
+    let result = trebuchet::run();
+    println!("Result: {}", result);
 }
